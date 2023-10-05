@@ -1,3 +1,5 @@
+package psvm_code;
+
 import java.util.Scanner;
 
 public class Assignment2 {
@@ -19,7 +21,7 @@ public class Assignment2 {
         z = joshua.nextInt();
 
         product = x * y * z;
-        System.out.println("The Product is:"+product);
+        System.out.println("The psvm_code.Product is:"+product);
 
 
     }

@@ -1,3 +1,5 @@
+package psvm_code;
+
 import java.util.Scanner;
 
 public class Assignment3 {
@@ -21,7 +23,7 @@ public class Assignment3 {
         System.out.println("The Sum is:"+sum);
 
         product = x * y;
-        System.out.println("The Product is:"+product);
+        System.out.println("The psvm_code.Product is:"+product);
 
         difference = x - y;
         System.out.println("The Difference is:"+difference);

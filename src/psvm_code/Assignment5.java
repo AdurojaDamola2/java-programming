@@ -1,3 +1,5 @@
+package psvm_code;
+
 import java.util.Scanner;
 
 public class Assignment5 {
@@ -29,7 +31,7 @@ public class Assignment5 {
         System.out.println("The Average is:" + average);
 
         product = number1 * number2 * number3;
-        System.out.println("The Product is:" + product);
+        System.out.println("The psvm_code.Product is:" + product);
 
         smallestNumber = number1;
         largestNumber = number1;
