@@ -21,7 +21,7 @@ public class PalindromePrinterTest {
 		
 		assertEquals("racecar", palindromePrinter.palindrome("racecar"));
 		assertEquals("deified", palindromePrinter.palindrome("deified"));
-		assertEquals("a man a plan a canal panama", palindromePrinter.palindrome("A man a plan a canal Panama"));
+		assertEquals("A man a plan a canal Panama", palindromePrinter.palindrome("A man a plan a canal Panama"));
 		assertEquals("hello", palindromePrinter.palindrome("hello"));
 		assertEquals("world", palindromePrinter.palindrome("world"));
 	}

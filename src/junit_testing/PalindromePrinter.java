@@ -1,26 +1,25 @@
 package junit_testing;
 
-import java.util.Locale;
 
 public class PalindromePrinter{
 	
-	static boolean isPalindrome(String word)
-	{
+	public static boolean isPalindrome (String word){
+		word = word.replaceAll ("\\s", "").toLowerCase ();
 		
-		int i = 0, j = word.length() - 1;
+		int left = 0;
+		int right = word.length () -1;
 		
-		while (i < j) {
-			if (word.charAt(i) != word.charAt(j))
+		if (left < right){
+			if (word.charAt (left) != word.charAt (right)){
 				return false;
-			i++;
-			j--;
+			}
+			left++;
+			right--;
 		}
 		return true;
 	}
 	
 	public String palindrome(String word){
-		word = word.toLowerCase();
-		
 		if (isPalindrome(word)) {
 		System.out.println ( word + " is a palindrome");
 		}
@@ -28,7 +27,8 @@ public class PalindromePrinter{
 		else{
 			System.out.println ( word + " is not palindrome");
 		}
-	return word;
+		
+		return word;
 	}
 }
 
